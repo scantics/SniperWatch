@@ -34,7 +34,7 @@ public OnPluginStart()
 public OnPlayerDeath(Handle:event, const String:name[], bool:dontBroadcast)
 {
 	if(!isTracking) return;
-	
+	dump(angleBuffer);
 }
 
 public Action:OnClientCommand(client,args)
@@ -51,4 +51,7 @@ public OnGameFrame()
 	}
 }
 
-public 
+public dump(buffer)
+{
+    
+}
